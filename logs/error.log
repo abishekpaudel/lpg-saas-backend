@@ -1,0 +1,8 @@
+2026-03-16 22:32:24 [[31merror[39m]: [31mMySQL query error: Access denied for user 'root'@'localhost' (using password: YES)[39m {"sql":"SELECT 1","params":[]}
+2026-03-16 22:33:43 [[31merror[39m]: [31mMySQL query error: Access denied for user 'root'@'localhost' (using password: YES)[39m {"sql":"SELECT 1","params":[]}
+2026-03-16 22:34:17 [[31merror[39m]: [31mMySQL query error: Access denied for user 'root'@'localhost' (using password: YES)[39m {"sql":"SELECT 1","params":[]}
+2026-03-16 22:35:54 [[31merror[39m]: [31mMySQL query error: Access denied for user 'root'@'localhost' (using password: YES)[39m {"sql":"SELECT 1","params":[]}
+2026-03-16 22:44:10 [[31merror[39m]: Error: Invalid email or password.
+    at Object.login (/home/abishek/projects/lpg-saas/backend/services/authService.js:48:42)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async login (/home/abishek/projects/lpg-saas/backend/controllers/authController.js:15:20) {"url":"/api/v1/auth/login","method":"POST","ip":"::1"}
