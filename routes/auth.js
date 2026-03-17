@@ -1,18 +1,12 @@
 const router = require('express').Router();
 const authController = require('../controllers/authController');
-const { authenticate } = require('../middlewares/auth');
-const { registerRules, loginRules, validate } = require('../validators');
+const { authenticate, authorize } = require('../middlewares/auth');
 
-// POST /auth/register
-router.post('/register', registerRules, validate, authController.register);
-
-// POST /auth/login
-router.post('/login', loginRules, validate, authController.login);
-
-// GET /auth/me
+router.post('/register', authController.register);
+router.post('/login', authController.login);
 router.get('/me', authenticate, authController.getMe);
-
-// PATCH /auth/change-password
 router.patch('/change-password', authenticate, authController.changePassword);
+// Admin creates supplier accounts
+router.post('/create-supplier', authenticate, authorize('SUPER_ADMIN'), authController.createSupplier);
 
 module.exports = router;

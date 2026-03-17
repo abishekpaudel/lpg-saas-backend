@@ -182,3 +182,24 @@ INSERT IGNORE INTO platform_settings (setting_key, value, description) VALUES
   ('platform_fee_percent', '2', 'Platform fee percentage on each booking'),
   ('min_rating_for_approval', '3.5', 'Minimum avg rating before warnings'),
   ('maintenance_mode', '0', 'Set to 1 to enable maintenance mode');
+
+-- ─── BLOG POSTS ───────────────────────────────────────────────────────────────
+CREATE TABLE IF NOT EXISTS blog_posts (
+  id           VARCHAR(36)  NOT NULL PRIMARY KEY,
+  author_id    VARCHAR(36)  NOT NULL,
+  title        VARCHAR(300) NOT NULL,
+  slug         VARCHAR(320) NOT NULL UNIQUE,
+  excerpt      TEXT         DEFAULT NULL,
+  content      LONGTEXT     NOT NULL,
+  cover_image  VARCHAR(500) DEFAULT NULL,
+  category     VARCHAR(80)  DEFAULT 'General',
+  tags         VARCHAR(500) DEFAULT NULL,
+  is_published TINYINT(1)   NOT NULL DEFAULT 0,
+  views        INT          NOT NULL DEFAULT 0,
+  created_at   DATETIME     NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  updated_at   DATETIME     NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  FOREIGN KEY (author_id) REFERENCES users(id) ON DELETE CASCADE,
+  INDEX idx_blog_slug      (slug),
+  INDEX idx_blog_published (is_published),
+  INDEX idx_blog_author    (author_id)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;

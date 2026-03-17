@@ -1,115 +1,53 @@
-2026-03-16 22:32:24 [[32minfo[39m]: [32mMySQL connection pool initialized[39m
-2026-03-16 22:32:24 [[31merror[39m]: [31mMySQL query error: Access denied for user 'root'@'localhost' (using password: YES)[39m {"sql":"SELECT 1","params":[]}
-2026-03-16 22:33:43 [[32minfo[39m]: [32mMySQL connection pool initialized[39m
-2026-03-16 22:33:43 [[31merror[39m]: [31mMySQL query error: Access denied for user 'root'@'localhost' (using password: YES)[39m {"sql":"SELECT 1","params":[]}
-2026-03-16 22:34:12 [[32minfo[39m]: [32mMySQL connection pool initialized[39m
-2026-03-16 22:34:17 [[31merror[39m]: [31mMySQL query error: Access denied for user 'root'@'localhost' (using password: YES)[39m {"sql":"SELECT 1","params":[]}
-2026-03-16 22:35:19 [[32minfo[39m]: [32mMySQL connection pool initialized[39m
-2026-03-16 22:35:54 [[31merror[39m]: [31mMySQL query error: Access denied for user 'root'@'localhost' (using password: YES)[39m {"sql":"SELECT 1","params":[]}
-2026-03-16 22:42:00 [[32minfo[39m]: [32mMySQL connection pool initialized[39m
-2026-03-16 22:42:00 [[32minfo[39m]: [32mMySQL connection test passed[39m
-2026-03-16 22:42:00 [[32minfo[39m]: [32mRedis connected[39m
-2026-03-16 22:42:00 [[32minfo[39m]: [32mRedis connection test passed[39m
-2026-03-16 22:42:00 [[32minfo[39m]: [32m[39m
-[32m╔══════════════════════════════════════════════╗[39m
-[32m║   LPG Gas Queue Management API               ║[39m
-[32m║   Port    : 5000                           ║[39m
-[32m║   Env     : development                   ║[39m
-[32m║   API     : http://localhost:5000/api/v1     ║[39m
-[32m║   Health  : http://localhost:5000/health     ║[39m
-[32m╚══════════════════════════════════════════════╝[39m
-[32m      [39m
-2026-03-16 22:43:09 [[32mhttp[39m]: [32m::ffff:127.0.0.1 - - [16/Mar/2026:16:58:09 +0000] "GET /favicon.ico HTTP/1.1" 404 102 "http://localhost:3000/login" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"[39m
-2026-03-16 22:44:10 [[31merror[39m]: Error: Invalid email or password.
-    at Object.login (/home/abishek/projects/lpg-saas/backend/services/authService.js:48:42)
-    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
-    at async login (/home/abishek/projects/lpg-saas/backend/controllers/authController.js:15:20) {"url":"/api/v1/auth/login","method":"POST","ip":"::1"}
-2026-03-16 22:44:10 [[32mhttp[39m]: [32m::1 - - [16/Mar/2026:16:59:10 +0000] "POST /api/v1/auth/login HTTP/1.1" 401 95 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"[39m
-2026-03-16 22:45:55 [[32minfo[39m]: [32mMySQL connection pool initialized[39m
-2026-03-16 22:45:55 [[32minfo[39m]: [32mMySQL connection test passed[39m
-2026-03-16 22:45:55 [[32minfo[39m]: [32mRedis connected[39m
-2026-03-16 22:45:55 [[32minfo[39m]: [32mRedis connection test passed[39m
-2026-03-16 22:45:55 [[32minfo[39m]: [32m[39m
-[32m╔══════════════════════════════════════════════╗[39m
-[32m║   LPG Gas Queue Management API               ║[39m
-[32m║   Port    : 5000                           ║[39m
-[32m║   Env     : development                   ║[39m
-[32m║   API     : http://localhost:5000/api/v1     ║[39m
-[32m║   Health  : http://localhost:5000/health     ║[39m
-[32m╚══════════════════════════════════════════════╝[39m
-[32m      [39m
-2026-03-16 22:46:04 [[32mhttp[39m]: [32m::1 - - [16/Mar/2026:17:01:04 +0000] "POST /api/v1/auth/login HTTP/1.1" 200 519 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"[39m
-2026-03-16 22:46:04 [[32mhttp[39m]: [32m::1 - - [16/Mar/2026:17:01:04 +0000] "GET /api/v1/suppliers/admin/analytics HTTP/1.1" 200 624 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"[39m
-2026-03-16 22:46:04 [[32mhttp[39m]: [32m::1 - - [16/Mar/2026:17:01:04 +0000] "GET /api/v1/suppliers/admin/analytics HTTP/1.1" 200 624 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"[39m
-2026-03-16 22:46:10 [[32mhttp[39m]: [32m::1 - - [16/Mar/2026:17:01:10 +0000] "GET /api/v1/suppliers?page=1&limit=15 HTTP/1.1" 200 1440 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"[39m
-2026-03-16 22:46:10 [[32mhttp[39m]: [32m::1 - - [16/Mar/2026:17:01:10 +0000] "GET /api/v1/suppliers?page=1&limit=15 HTTP/1.1" 200 1440 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"[39m
-2026-03-16 22:46:14 [[32mhttp[39m]: [32m::1 - - [16/Mar/2026:17:01:14 +0000] "GET /api/v1/bookings/admin/all?page=1&limit=20 HTTP/1.1" 200 145 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"[39m
-2026-03-16 22:46:14 [[32mhttp[39m]: [32m::1 - - [16/Mar/2026:17:01:14 +0000] "GET /api/v1/bookings/admin/all?page=1&limit=20 HTTP/1.1" 200 145 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"[39m
-2026-03-16 22:46:16 [[32mhttp[39m]: [32m::1 - - [16/Mar/2026:17:01:16 +0000] "GET /api/v1/users?page=1&limit=20 HTTP/1.1" 200 1341 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"[39m
-2026-03-16 22:46:16 [[32mhttp[39m]: [32m::1 - - [16/Mar/2026:17:01:16 +0000] "GET /api/v1/users?page=1&limit=20 HTTP/1.1" 200 1341 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"[39m
-2026-03-16 22:46:33 [[32mhttp[39m]: [32m::1 - - [16/Mar/2026:17:01:33 +0000] "GET /api/v1/users?page=1&limit=20&search=h HTTP/1.1" 200 747 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"[39m
-2026-03-16 22:46:33 [[32mhttp[39m]: [32m::1 - - [16/Mar/2026:17:01:33 +0000] "GET /api/v1/users?page=1&limit=20&search=hi HTTP/1.1" 200 351 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"[39m
-2026-03-16 22:46:33 [[32mhttp[39m]: [32m::1 - - [16/Mar/2026:17:01:33 +0000] "GET /api/v1/users?page=1&limit=20&search=him HTTP/1.1" 200 351 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"[39m
-2026-03-16 22:46:34 [[32mhttp[39m]: [32m::1 - - [16/Mar/2026:17:01:34 +0000] "GET /api/v1/users?page=1&limit=20&search=hi HTTP/1.1" 200 351 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"[39m
-2026-03-16 22:46:34 [[32mhttp[39m]: [32m::1 - - [16/Mar/2026:17:01:34 +0000] "GET /api/v1/users?page=1&limit=20&search=h HTTP/1.1" 200 747 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"[39m
-2026-03-16 22:46:34 [[32mhttp[39m]: [32m::1 - - [16/Mar/2026:17:01:34 +0000] "GET /api/v1/users?page=1&limit=20 HTTP/1.1" 200 1341 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"[39m
-2026-03-16 22:46:39 [[32mhttp[39m]: [32m::1 - - [16/Mar/2026:17:01:39 +0000] "GET /api/v1/bookings/admin/all?page=1&limit=20 HTTP/1.1" 200 145 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"[39m
-2026-03-16 22:46:39 [[32mhttp[39m]: [32m::1 - - [16/Mar/2026:17:01:39 +0000] "GET /api/v1/bookings/admin/all?page=1&limit=20 HTTP/1.1" 200 145 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"[39m
-2026-03-16 22:46:40 [[32mhttp[39m]: [32m::1 - - [16/Mar/2026:17:01:40 +0000] "GET /api/v1/suppliers?page=1&limit=15 HTTP/1.1" 200 1440 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"[39m
-2026-03-16 22:46:40 [[32mhttp[39m]: [32m::1 - - [16/Mar/2026:17:01:40 +0000] "GET /api/v1/suppliers?page=1&limit=15 HTTP/1.1" 200 1440 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"[39m
-2026-03-16 22:46:41 [[32mhttp[39m]: [32m::1 - - [16/Mar/2026:17:01:41 +0000] "GET /api/v1/suppliers/admin/analytics HTTP/1.1" 200 624 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"[39m
-2026-03-16 22:46:41 [[32mhttp[39m]: [32m::1 - - [16/Mar/2026:17:01:41 +0000] "GET /api/v1/suppliers/admin/analytics HTTP/1.1" 200 624 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"[39m
-2026-03-16 22:47:29 [[32mhttp[39m]: [32m::1 - - [16/Mar/2026:17:02:29 +0000] "POST /api/v1/auth/login HTTP/1.1" 200 1105 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"[39m
-2026-03-16 22:47:29 [[32mhttp[39m]: [32m::1 - - [16/Mar/2026:17:02:29 +0000] "GET /api/v1/suppliers/me/analytics HTTP/1.1" 200 984 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"[39m
-2026-03-16 22:47:29 [[32mhttp[39m]: [32m::1 - - [16/Mar/2026:17:02:29 +0000] "GET /api/v1/queue/me/live HTTP/1.1" 200 106 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"[39m
-2026-03-16 22:47:29 [[32mhttp[39m]: [32m::1 - - [16/Mar/2026:17:02:29 +0000] "GET /api/v1/queue/me/live HTTP/1.1" 200 106 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"[39m
-2026-03-16 22:47:29 [[32mhttp[39m]: [32m::1 - - [16/Mar/2026:17:02:29 +0000] "GET /api/v1/suppliers/me/analytics HTTP/1.1" 200 984 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"[39m
-2026-03-16 22:47:37 [[32mhttp[39m]: [32m::1 - - [16/Mar/2026:17:02:37 +0000] "GET /api/v1/bookings/supplier?page=1&limit=20 HTTP/1.1" 200 145 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"[39m
-2026-03-16 22:47:37 [[32mhttp[39m]: [32m::1 - - [16/Mar/2026:17:02:37 +0000] "GET /api/v1/bookings/supplier?page=1&limit=20 HTTP/1.1" 200 145 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"[39m
-2026-03-16 22:47:39 [[32mhttp[39m]: [32m::1 - - [16/Mar/2026:17:02:39 +0000] "GET /api/v1/stock/products HTTP/1.1" 200 894 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"[39m
-2026-03-16 22:47:39 [[32mhttp[39m]: [32m::1 - - [16/Mar/2026:17:02:39 +0000] "GET /api/v1/stock/me HTTP/1.1" 200 1034 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"[39m
-2026-03-16 22:47:39 [[32mhttp[39m]: [32m::1 - - [16/Mar/2026:17:02:39 +0000] "GET /api/v1/stock/products HTTP/1.1" 200 894 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"[39m
-2026-03-16 22:47:39 [[32mhttp[39m]: [32m::1 - - [16/Mar/2026:17:02:39 +0000] "GET /api/v1/stock/me HTTP/1.1" 200 1034 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"[39m
-2026-03-16 22:47:56 [[32mhttp[39m]: [32m::1 - - [16/Mar/2026:17:02:56 +0000] "PATCH /api/v1/stock/me/7f12e1b6-dbb2-48dd-875a-856f3daa4025/add-quantity HTTP/1.1" 200 93 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"[39m
-2026-03-16 22:47:56 [[32mhttp[39m]: [32m::1 - - [16/Mar/2026:17:02:56 +0000] "GET /api/v1/stock/products HTTP/1.1" 200 894 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"[39m
-2026-03-16 22:47:56 [[32mhttp[39m]: [32m::1 - - [16/Mar/2026:17:02:56 +0000] "GET /api/v1/stock/me HTTP/1.1" 200 1034 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"[39m
-2026-03-16 22:48:05 [[32mhttp[39m]: [32m::1 - - [16/Mar/2026:17:03:05 +0000] "PATCH /api/v1/stock/me/c1b2c030-e407-4a1c-88f5-7eabc163bd3c/add-quantity HTTP/1.1" 200 93 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"[39m
-2026-03-16 22:48:05 [[32mhttp[39m]: [32m::1 - - [16/Mar/2026:17:03:05 +0000] "GET /api/v1/stock/products HTTP/1.1" 200 894 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"[39m
-2026-03-16 22:48:05 [[32mhttp[39m]: [32m::1 - - [16/Mar/2026:17:03:05 +0000] "GET /api/v1/stock/me HTTP/1.1" 200 1034 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"[39m
-2026-03-16 22:48:08 [[32mhttp[39m]: [32m::1 - - [16/Mar/2026:17:03:08 +0000] "GET /api/v1/reviews/my HTTP/1.1" 200 97 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"[39m
-2026-03-16 22:48:08 [[32mhttp[39m]: [32m::1 - - [16/Mar/2026:17:03:08 +0000] "GET /api/v1/reviews/my HTTP/1.1" 200 97 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"[39m
-2026-03-16 22:48:09 [[32mhttp[39m]: [32m::1 - - [16/Mar/2026:17:03:09 +0000] "GET /api/v1/suppliers/me/profile HTTP/1.1" 200 674 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"[39m
-2026-03-16 22:48:09 [[32mhttp[39m]: [32m::1 - - [16/Mar/2026:17:03:09 +0000] "GET /api/v1/suppliers/me/profile HTTP/1.1" 200 674 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"[39m
-2026-03-16 22:48:16 [[32mhttp[39m]: [32m::1 - - [16/Mar/2026:17:03:16 +0000] "GET /api/v1/queue/me/live HTTP/1.1" 200 106 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"[39m
-2026-03-16 22:48:16 [[32mhttp[39m]: [32m::1 - - [16/Mar/2026:17:03:16 +0000] "GET /api/v1/queue/me/live HTTP/1.1" 200 106 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"[39m
-2026-03-16 22:48:18 [[32mhttp[39m]: [32m::1 - - [16/Mar/2026:17:03:18 +0000] "GET /api/v1/queue/me/live HTTP/1.1" 200 106 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"[39m
-2026-03-16 22:48:18 [[32mhttp[39m]: [32m::1 - - [16/Mar/2026:17:03:18 +0000] "GET /api/v1/queue/me/live HTTP/1.1" 200 106 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"[39m
-2026-03-16 22:48:18 [[32mhttp[39m]: [32m::1 - - [16/Mar/2026:17:03:18 +0000] "GET /api/v1/suppliers/me/analytics HTTP/1.1" 200 984 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"[39m
-2026-03-16 22:48:18 [[32mhttp[39m]: [32m::1 - - [16/Mar/2026:17:03:18 +0000] "GET /api/v1/suppliers/me/analytics HTTP/1.1" 200 984 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"[39m
-2026-03-16 22:48:33 [[32mhttp[39m]: [32m::1 - - [16/Mar/2026:17:03:33 +0000] "GET /api/v1/queue/me/live HTTP/1.1" 200 106 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"[39m
-2026-03-16 22:48:48 [[32mhttp[39m]: [32m::1 - - [16/Mar/2026:17:03:48 +0000] "GET /api/v1/queue/me/live HTTP/1.1" 200 106 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"[39m
-2026-03-16 22:48:58 [[32mhttp[39m]: [32m::1 - - [16/Mar/2026:17:03:58 +0000] "GET /api/v1/queue/me/live HTTP/1.1" 200 106 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"[39m
-2026-03-16 22:48:58 [[32mhttp[39m]: [32m::1 - - [16/Mar/2026:17:03:58 +0000] "GET /api/v1/queue/me/live HTTP/1.1" 200 106 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"[39m
-2026-03-16 22:48:59 [[32mhttp[39m]: [32m::1 - - [16/Mar/2026:17:03:59 +0000] "GET /api/v1/bookings/supplier?page=1&limit=20 HTTP/1.1" 200 145 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"[39m
-2026-03-16 22:48:59 [[32mhttp[39m]: [32m::1 - - [16/Mar/2026:17:03:59 +0000] "GET /api/v1/bookings/supplier?page=1&limit=20 HTTP/1.1" 200 145 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"[39m
-2026-03-16 22:49:01 [[32mhttp[39m]: [32m::1 - - [16/Mar/2026:17:04:01 +0000] "GET /api/v1/reviews/my HTTP/1.1" 200 97 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"[39m
-2026-03-16 22:49:01 [[32mhttp[39m]: [32m::1 - - [16/Mar/2026:17:04:01 +0000] "GET /api/v1/reviews/my HTTP/1.1" 200 97 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"[39m
-2026-03-16 22:49:02 [[32mhttp[39m]: [32m::1 - - [16/Mar/2026:17:04:02 +0000] "GET /api/v1/suppliers/me/profile HTTP/1.1" 200 674 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"[39m
-2026-03-16 22:49:02 [[32mhttp[39m]: [32m::1 - - [16/Mar/2026:17:04:02 +0000] "GET /api/v1/suppliers/me/profile HTTP/1.1" 200 674 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"[39m
-2026-03-16 22:49:03 [[32mhttp[39m]: [32m::1 - - [16/Mar/2026:17:04:03 +0000] "GET /api/v1/stock/products HTTP/1.1" 200 894 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"[39m
-2026-03-16 22:49:03 [[32mhttp[39m]: [32m::1 - - [16/Mar/2026:17:04:03 +0000] "GET /api/v1/stock/me HTTP/1.1" 200 1034 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"[39m
-2026-03-16 22:49:03 [[32mhttp[39m]: [32m::1 - - [16/Mar/2026:17:04:03 +0000] "GET /api/v1/stock/products HTTP/1.1" 200 894 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"[39m
-2026-03-16 22:49:03 [[32mhttp[39m]: [32m::1 - - [16/Mar/2026:17:04:03 +0000] "GET /api/v1/stock/me HTTP/1.1" 200 1034 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"[39m
-2026-03-16 23:07:36 [[32minfo[39m]: [32mMySQL connection pool initialized[39m
-2026-03-16 23:07:36 [[32minfo[39m]: [32mMySQL connection test passed[39m
-2026-03-16 23:07:36 [[32minfo[39m]: [32mRedis connected[39m
-2026-03-16 23:07:36 [[32minfo[39m]: [32mRedis connection test passed[39m
-2026-03-16 23:07:36 [[32minfo[39m]: [32m[39m
-[32m╔══════════════════════════════════════════════╗[39m
-[32m║   LPG Gas Queue Management API               ║[39m
-[32m║   Port    : 5000                           ║[39m
-[32m║   Env     : development                   ║[39m
-[32m║   API     : http://localhost:5000/api/v1     ║[39m
-[32m║   Health  : http://localhost:5000/health     ║[39m
-[32m╚══════════════════════════════════════════════╝[39m
-[32m      [39m
+2026-03-17 09:39:37 [[32minfo[39m]: [32mMySQL connection pool initialized[39m
+2026-03-17 09:39:37 [[32minfo[39m]: [32mMySQL connection test passed[39m
+2026-03-17 09:39:37 [[32minfo[39m]: [32mRedis connected[39m
+2026-03-17 09:39:37 [[32minfo[39m]: [32mRedis connection test passed[39m
+2026-03-17 09:39:37 [[32minfo[39m]: [32mGasQueue API v2 running on http://localhost:5000[39m
+2026-03-17 09:42:04 [[32minfo[39m]: [32mMySQL connection pool initialized[39m
+2026-03-17 09:42:04 [[32minfo[39m]: [32mMySQL connection test passed[39m
+2026-03-17 09:42:04 [[32minfo[39m]: [32mRedis connected[39m
+2026-03-17 09:42:04 [[32minfo[39m]: [32mRedis connection test passed[39m
+2026-03-17 09:42:04 [[32minfo[39m]: [32mGasQueue API v2 running on http://localhost:5000[39m
+2026-03-17 09:42:04 [[32minfo[39m]: [32mMySQL connection pool initialized[39m
+2026-03-17 09:42:04 [[32minfo[39m]: [32mMySQL connection test passed[39m
+2026-03-17 09:42:04 [[32minfo[39m]: [32mRedis connected[39m
+2026-03-17 09:42:04 [[32minfo[39m]: [32mRedis connection test passed[39m
+2026-03-17 09:42:04 [[32minfo[39m]: [32mGasQueue API v2 running on http://localhost:5000[39m
+2026-03-17 09:42:08 [[32minfo[39m]: [32mMySQL connection pool initialized[39m
+2026-03-17 09:42:08 [[32minfo[39m]: [32mMySQL connection test passed[39m
+2026-03-17 09:42:08 [[32minfo[39m]: [32mRedis connected[39m
+2026-03-17 09:42:08 [[32minfo[39m]: [32mRedis connection test passed[39m
+2026-03-17 09:42:08 [[32minfo[39m]: [32mGasQueue API v2 running on http://localhost:5000[39m
+2026-03-17 09:45:09 [[32minfo[39m]: [32mMySQL connection pool initialized[39m
+2026-03-17 09:45:09 [[32minfo[39m]: [32mMySQL connection test passed[39m
+2026-03-17 09:45:09 [[32minfo[39m]: [32mRedis connected[39m
+2026-03-17 09:45:09 [[32minfo[39m]: [32mRedis connection test passed[39m
+2026-03-17 09:45:09 [[32minfo[39m]: [32mGasQueue API v2 running on http://localhost:5000[39m
+2026-03-17 09:45:23 [[32mhttp[39m]: [32m::ffff:127.0.0.1 - - [17/Mar/2026:04:00:23 +0000] "GET /favicon.ico HTTP/1.1" 404 102 "http://localhost:3000/suppliers" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"[39m
+2026-03-17 09:45:23 [[32mhttp[39m]: [32m::1 - - [17/Mar/2026:04:00:23 +0000] "GET /api/v1/suppliers?page=1&limit=12&approved=true HTTP/1.1" 200 1393 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"[39m
+2026-03-17 09:45:25 [[32mhttp[39m]: [32m::1 - - [17/Mar/2026:04:00:25 +0000] "GET /api/v1/blogs/categories HTTP/1.1" 200 100 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"[39m
+2026-03-17 09:45:25 [[32mhttp[39m]: [32m::1 - - [17/Mar/2026:04:00:25 +0000] "GET /api/v1/blogs/categories HTTP/1.1" 200 100 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"[39m
+2026-03-17 09:45:25 [[32mhttp[39m]: [32m::1 - - [17/Mar/2026:04:00:25 +0000] "GET /api/v1/blogs?page=1&limit=9 HTTP/1.1" 200 144 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"[39m
+2026-03-17 09:45:40 [[32mhttp[39m]: [32m::1 - - [17/Mar/2026:04:00:40 +0000] "POST /api/v1/auth/login HTTP/1.1" 200 559 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"[39m
+2026-03-17 09:45:40 [[32mhttp[39m]: [32m::1 - - [17/Mar/2026:04:00:40 +0000] "GET /api/v1/suppliers/admin/analytics HTTP/1.1" 200 633 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"[39m
+2026-03-17 09:45:40 [[32mhttp[39m]: [32m::1 - - [17/Mar/2026:04:00:40 +0000] "GET /api/v1/suppliers/admin/analytics HTTP/1.1" 200 633 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"[39m
+2026-03-17 09:45:43 [[32mhttp[39m]: [32m::1 - - [17/Mar/2026:04:00:43 +0000] "GET /api/v1/suppliers?approved=true&limit=6 HTTP/1.1" 200 1392 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"[39m
+2026-03-17 09:45:43 [[32mhttp[39m]: [32m::1 - - [17/Mar/2026:04:00:43 +0000] "GET /api/v1/suppliers?approved=true&limit=6 HTTP/1.1" 200 1392 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"[39m
+2026-03-17 09:45:43 [[32mhttp[39m]: [32m::1 - - [17/Mar/2026:04:00:43 +0000] "GET /api/v1/blogs?limit=3 HTTP/1.1" 200 144 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"[39m
+2026-03-17 09:45:43 [[32mhttp[39m]: [32m::1 - - [17/Mar/2026:04:00:43 +0000] "GET /api/v1/blogs?limit=3 HTTP/1.1" 200 144 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"[39m
+2026-03-17 09:49:00 [[32minfo[39m]: [32mMySQL connection pool initialized[39m
+2026-03-17 09:49:00 [[32minfo[39m]: [32mMySQL connection test passed[39m
+2026-03-17 09:49:00 [[32minfo[39m]: [32mRedis connected[39m
+2026-03-17 09:49:00 [[32minfo[39m]: [32mRedis connection test passed[39m
+2026-03-17 09:49:00 [[32minfo[39m]: [32mGasQueue API v2 running on http://localhost:5000[39m
+2026-03-17 09:50:09 [[32mhttp[39m]: [32m::1 - - [17/Mar/2026:04:05:09 +0000] "GET /api/v1/suppliers?approved=true&limit=6 HTTP/1.1" 200 1392 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"[39m
+2026-03-17 09:50:09 [[32mhttp[39m]: [32m::1 - - [17/Mar/2026:04:05:09 +0000] "GET /api/v1/blogs?limit=3 HTTP/1.1" 200 144 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"[39m
+2026-03-17 09:50:09 [[32mhttp[39m]: [32m::1 - - [17/Mar/2026:04:05:09 +0000] "GET /api/v1/suppliers?approved=true&limit=6 HTTP/1.1" 200 1392 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"[39m
+2026-03-17 09:50:09 [[32mhttp[39m]: [32m::1 - - [17/Mar/2026:04:05:09 +0000] "GET /api/v1/blogs?limit=3 HTTP/1.1" 200 144 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"[39m
+2026-03-17 09:50:25 [[32mhttp[39m]: [32m::1 - - [17/Mar/2026:04:05:25 +0000] "GET /api/v1/suppliers?page=1&limit=12&approved=true HTTP/1.1" 200 1393 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"[39m
+2026-03-17 09:50:30 [[32mhttp[39m]: [32m::1 - - [17/Mar/2026:04:05:30 +0000] "GET /api/v1/reviews/supplier/5645102f-6e91-4bbd-a202-f366a4ab7ab0?limit=10 HTTP/1.1" 200 145 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"[39m
+2026-03-17 09:50:30 [[32mhttp[39m]: [32m::1 - - [17/Mar/2026:04:05:30 +0000] "GET /api/v1/queue/5645102f-6e91-4bbd-a202-f366a4ab7ab0 HTTP/1.1" 200 106 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"[39m
+2026-03-17 09:50:30 [[32mhttp[39m]: [32m::1 - - [17/Mar/2026:04:05:30 +0000] "GET /api/v1/suppliers/5645102f-6e91-4bbd-a202-f366a4ab7ab0 HTTP/1.1" 200 1690 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"[39m
+2026-03-17 09:50:30 [[32mhttp[39m]: [32m::1 - - [17/Mar/2026:04:05:30 +0000] "GET /api/v1/queue/5645102f-6e91-4bbd-a202-f366a4ab7ab0 HTTP/1.1" 200 106 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"[39m
+2026-03-17 09:50:30 [[32mhttp[39m]: [32m::1 - - [17/Mar/2026:04:05:30 +0000] "GET /api/v1/reviews/supplier/5645102f-6e91-4bbd-a202-f366a4ab7ab0?limit=10 HTTP/1.1" 200 145 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"[39m
+2026-03-17 09:50:30 [[32mhttp[39m]: [32m::1 - - [17/Mar/2026:04:05:30 +0000] "GET /api/v1/suppliers/5645102f-6e91-4bbd-a202-f366a4ab7ab0 HTTP/1.1" 200 1690 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36"[39m

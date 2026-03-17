@@ -6,7 +6,7 @@ require('dotenv').config({ path: path.join(__dirname, '../.env') });
 const config = {
   host: process.env.MYSQL_HOST || 'localhost',
   user: process.env.MYSQL_USER || 'root',
-  password: process.env.MYSQL_PASSWORD || 'P@ssw0rd',
+  password: process.env.MYSQL_PASSWORD || 'p@ssw0rd',
   port: parseInt(process.env.MYSQL_PORT) || 3306,
   multipleStatements: true,
 };
